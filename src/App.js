@@ -6,6 +6,7 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom'
 import './App.css';
 import Home from './pages/home/home.component';
 import Header from './components/header/header.component';
+import About from './pages/about/about.component';
 
 class App extends React.Component {
   render(){
@@ -13,12 +14,12 @@ class App extends React.Component {
       <div>
         <Header/>
         <BrowserRouter>
-          <Switch>
+          {/* <Switch> */}
             <Route exact path='/' Component={Home}/>
-            {/* <Route path='/about' Component={About}/> */}
+            <Route path='/about' Component={About}/>
             {/* <Route path='/contact' Component={Contact}/> */}
 
-          </Switch>
+          {/* </Switch> */}
         </BrowserRouter>
       </div>
     )

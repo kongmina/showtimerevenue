@@ -20,10 +20,9 @@ const Header = () => (
             <Link to='/case-study' className='option'>
                 Case Study
             </Link>
-
         </div>
     </div>
     </BrowserRouter>
-)
+);
 
-export default Header;
+export default Header

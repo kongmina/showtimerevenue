@@ -22,7 +22,8 @@ export default class Home extends React.Component {
     render() {
         return (
             <div className='intro'>
-              {/* <Layout {...this.state}/> */}
+                HELLO?
+              {/* <Layout content={this.state.content}/> */}
             </div>
     )
         }
