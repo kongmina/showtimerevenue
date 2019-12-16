@@ -10,6 +10,8 @@ import Header from './components/header/header.component';
 import About from './pages/about/about.component';
 import Contact from './pages/contact/contact.component';
 import CaseStudy from './pages/case-study/case-study.component';
+import Footer from './components/footer/footer.component';
+import Terms from './pages/terms/terms.component';
 
 class App extends React.Component {
   render(){
@@ -23,8 +25,11 @@ class App extends React.Component {
             <Route path='/about' component={About}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/case-study' component={CaseStudy}/>
+            {/* <Route path='/blog' component={Blog}/> */}
+            <Route path='/terms-of-service' component={Terms}/>
 
           </Switch>
+          <Footer/>
         </BrowserRouter>
       </div>
     )
