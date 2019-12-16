@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Terms from '../../pages/terms/terms.component'
-
 import './footer.styles.scss'
+
 const Footer = () => (
     <div className='footer'>
         <div className='terms-button'>

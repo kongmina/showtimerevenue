@@ -4,14 +4,14 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
-    background-color: black;
+    background-color: #2f2f2f;
     font-family: "Open Sans Condensed";
 
     .logo-container {
-        height: 120%;
-        width: 150px;
-        padding: 10px;
-        padding-left: 30;
+        height: 100%;
+        width: 200px;
+        // padding: 10px;
+        padding-left: 20px;
       }
 
       .options {

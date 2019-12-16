@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './text.styles.scss'
 const WallText = ({title, content}) => (
 
     <div className='text-container'>
