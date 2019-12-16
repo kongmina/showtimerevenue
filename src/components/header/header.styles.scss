@@ -4,11 +4,14 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    background-color: black;
+    font-family: "Open Sans Condensed";
 
     .logo-container {
-        height: 100%;
-        width: 100px;
+        height: 120%;
+        width: 150px;
         padding: 10px;
+        padding-left: 30;
       }
 
       .options {
@@ -17,6 +20,7 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        padding-right: 20px;
     
         .option {
           padding: 10px 15px;

@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link, BrowserRouter } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { ReactComponent as Logo } from '../../assets/showtimelogo.svg'
 
 import './header.styles.scss'
 
 const Header = () => (
-    <BrowserRouter>
-    <div className='header'>
+      <div className='header'>
         <Link to="/" className='logo-container'>
             <Logo className='logo-container'/>                
         </Link>
@@ -22,7 +21,6 @@ const Header = () => (
             </Link>
         </div>
     </div>
-    </BrowserRouter>
 );
 
 export default Header

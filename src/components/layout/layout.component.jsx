@@ -1,9 +1,20 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom'
+import './layout.styles.scss'
 
-const Layout = ( content ) => (
+
+const Layout = ( { title, imageUrl, description} ) => (
     <div className='container'>
          <div className='title'>
-             ${content.title}
+             {title}
+        </div>
+        <div className='contain'>
+        <div className='image-container'>
+         <img src={imageUrl} alt='img'/>
+        </div>
+        <div className='description'>
+            {description}
+        </div>
         </div>
     </div>
 )
