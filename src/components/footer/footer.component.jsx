@@ -4,6 +4,7 @@ import './footer.styles.scss'
 
 const Footer = () => (
     <div className='footer'>
+        <div className='legal'>
         <div className='terms-button'>
             <Link to='/terms-of-service'>
                 Terms of Service
@@ -14,6 +15,11 @@ const Footer = () => (
                 Privacy Policy
             </Link>
         </div>
+        </div>
+        <div className='rights'>
+        Copyright 2019 Showtime Revenue, all rights reserved.
+        </div>
     </div>
+    
 );
 export default Footer

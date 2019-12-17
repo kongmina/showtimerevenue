@@ -1,5 +1,4 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom'
 import './layout.styles.scss'
 
 
@@ -13,7 +12,12 @@ const Layout = ( { title, imageUrl, description} ) => (
          <img src={imageUrl} alt='img'/>
         </div>
         <div className='description'>
-            {description}
+        {description.split("\n").map((i,key) => {
+            return (
+            <div className='line'key={key}>{i}</div>
+            
+            )
+        })}
         </div>
         </div>
     </div>

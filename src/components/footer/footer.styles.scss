@@ -1,6 +1,26 @@
 .footer {
-    display: flex;
-    align-items: baseline;
-    margin: auto;
-    // align-content: space-between;
+    // display: flex;
+    border-spacing: 0ch;
+    justify-content: center;
+    text-align: center;
+
+    .legal {        
+        margin: 5px;
+        font-size: 20px;
+        
+        .terms-button {
+        display: inline-block;
+        margin-right: 10px;
+        }
+
+    .privacy-button {
+        display: inline-block;
+       }
+    }
+
+    .rights {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
 }
