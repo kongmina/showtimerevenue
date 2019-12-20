@@ -1,24 +1,13 @@
 import React from 'react'
-import BLOG_DATA from './blog.data';
-import BlogPreview from '../../components/blog-preview/blog-preview.component';
 import './blog.styles.scss'
+import BlogDirectory from '../../components/blog-directory/blog-directory.component'
+import { Route } from 'react-router-dom'
+import BlogPost from '../../components/blog-post/blog-post.component'
 
-export default class Blog extends React.Component {
-    constructor(){
-        super();
-
-        this.state = {posts : BLOG_DATA}
-    }
-
-    render() {
-        const { posts } = this.state;
-        console.log(posts);
-        return (
-            <div className='posts'>
-               {posts.map(({...postProps}) => (
-                       <BlogPreview {...postProps}/>
-               ))}
-               </div>
-    )
-      }
-    }
+const BlogPage = ({match}) => (
+    <div className='blog-page'>
+        <Route path={`${match.path}`} component={BlogDirectory} exact/>
+        <Route path={`${match.path}-3`} component={BlogPost}/>
+    </div>
+)
+export default BlogPage;
