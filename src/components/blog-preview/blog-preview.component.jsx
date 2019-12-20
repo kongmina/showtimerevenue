@@ -1,8 +1,10 @@
 import React from 'react'
 import { Button, Icon } from 'semantic-ui-react'
+import { withRouter } from 'react-router-dom';
+
 import './blog-preview.styles.scss'
 
-const BlogPreview = ({title, content, image}) => (
+const BlogPreview = ({id, title, content, image, history, match}) => (
     <div className='preview-container'>
         <div className='title'>
             {title}
@@ -13,9 +15,10 @@ const BlogPreview = ({title, content, image}) => (
         </div>
         
         <Button animated className='button'
-        // onClick={() => {
-        //     history.push(`/blog-${id}`)
-        // }}
+        onClick={() => {
+            console.log(id);
+            history.push(`${match.url}-${id}`)
+        }}
         >
             <Button.Content visible> Read More </Button.Content>
                 <Button.Content hidden>
@@ -25,4 +28,4 @@ const BlogPreview = ({title, content, image}) => (
     </div>
 )
 
-export default BlogPreview;
+export default withRouter(BlogPreview);

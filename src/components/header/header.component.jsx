@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import { ReactComponent as Logo } from '../../assets/visuals/showtimelogo.svg'
 import { ReactComponent as RectLogo } from '../../assets/visuals/showtimelogo-rect.svg'
 import './header.styles.scss'
 
