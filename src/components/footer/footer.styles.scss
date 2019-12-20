@@ -1,3 +1,6 @@
+footer:Link {
+    color: black;
+}
 .footer {
     // display: flex;
     border-spacing: 0ch;
@@ -7,10 +10,17 @@
     .legal {        
         margin: 5px;
         font-size: 20px;
-        
+        color: black;
+
         .terms-button {
         display: inline-block;
-        margin-right: 10px;
+        // margin-right: 10px;
+        }
+
+        .divider {
+            display: inline-block;
+            margin-left: 10px;
+            margin-right: 10px;
         }
 
     .privacy-button {

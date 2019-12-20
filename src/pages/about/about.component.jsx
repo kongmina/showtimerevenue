@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../../components/layout/layout.component';
-import { withRouter } from 'react-router-dom';
+// import { withRouter } from 'react-router-dom';
 
 class About extends React.Component {
     constructor() {

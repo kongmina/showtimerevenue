@@ -7,7 +7,13 @@
     background-color: #2f2f2f;
     font-family: "Open Sans Condensed";
     font-size: 24px;
-
+    color: white;
+    header:link {
+      color: white;
+    }
+   
+  
+    
     .logo-container {
         height: 100%;
         width: 200px;
@@ -22,12 +28,14 @@
         align-items: center;
         justify-content: flex-end;
         padding-right: 20px;
-    
+        color: white;
+      
         .option {
           padding: 10px 15px;
           cursor: pointer;
         }
-      
-  
+        
+    
 }
+
 }

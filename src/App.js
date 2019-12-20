@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route, BrowserRouter, Router } from 'react-router-dom'
+import { Switch, Route, BrowserRouter } from 'react-router-dom'
 
 // import Header from './components/header/header.component'
 
@@ -13,6 +13,7 @@ import CaseStudy from './pages/case-study/case-study.component';
 import Footer from './components/footer/footer.component';
 import Terms from './pages/terms/terms.component';
 import Privacy from './pages/privacy/privacy.component';
+import Blog from './pages/blog/blog.component';
 
 class App extends React.Component {
   render(){
@@ -26,7 +27,7 @@ class App extends React.Component {
             <Route path='/about' component={About}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/case-study' component={CaseStudy}/>
-            {/* <Route path='/blog' component={Blog}/> */}
+            <Route path='/blog' component={Blog}/>
             <Route path='/terms-of-service' component={Terms}/>
             <Route path='/privacy-policy' component={Privacy}/>
 
