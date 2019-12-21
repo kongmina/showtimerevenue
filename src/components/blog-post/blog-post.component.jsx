@@ -1,23 +1,16 @@
 import React from 'react'
 
-const BlogPost = ({ post }) => {
-    const {title, image, content} = post;
-    return (
+const BlogPost = ({title, content}) => (
     <div className='post'>
-        {title}
-        {/* <div className='title'>
+        <div className='title'>
             {title}
         </div>
         <div className='content-container'>
-            {content.split("\
-            n").map((line) => {
+            {content.split("\n").map((line) => {
             return (
             <div className='line'>{line}</div>
             )
         })}
-        </div>*/}
+        </div>
     </div>
-    )
-}
-
-export default BlogPost;
+)
