@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/showtime-revenue/static/css/main.201758ae.chunk.css",
+    "main.js": "/showtime-revenue/static/js/main.8ccc71ea.chunk.js",
+    "main.js.map": "/showtime-revenue/static/js/main.8ccc71ea.chunk.js.map",
+    "runtime-main.js": "/showtime-revenue/static/js/runtime-main.65ac16f3.js",
+    "runtime-main.js.map": "/showtime-revenue/static/js/runtime-main.65ac16f3.js.map",
+    "static/js/2.88e9a787.chunk.js": "/showtime-revenue/static/js/2.88e9a787.chunk.js",
+    "static/js/2.88e9a787.chunk.js.map": "/showtime-revenue/static/js/2.88e9a787.chunk.js.map",
+    "index.html": "/showtime-revenue/index.html",
+    "precache-manifest.863688681ecfda84581be2bb804959d2.js": "/showtime-revenue/precache-manifest.863688681ecfda84581be2bb804959d2.js",
+    "service-worker.js": "/showtime-revenue/service-worker.js",
+    "static/css/main.201758ae.chunk.css.map": "/showtime-revenue/static/css/main.201758ae.chunk.css.map",
+    "static/media/bossandboss.jpeg": "/showtime-revenue/static/media/bossandboss.36927a83.jpeg",
+    "static/media/googlesearch.jpeg": "/showtime-revenue/static/media/googlesearch.7bb8d48f.jpeg",
+    "static/media/mapactions.jpeg": "/showtime-revenue/static/media/mapactions.7115ce39.jpeg",
+    "static/media/showtimelogo-rect.52cf355b.svg": "/showtime-revenue/static/media/showtimelogo-rect.52cf355b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65ac16f3.js",
+    "static/js/2.88e9a787.chunk.js",
+    "static/css/main.201758ae.chunk.css",
+    "static/js/main.8ccc71ea.chunk.js"
+  ]
+}
