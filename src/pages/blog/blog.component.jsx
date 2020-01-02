@@ -1,5 +1,5 @@
 import React from 'react'
-import BLOG_DATA from './blog.data';
+import BLOG_DATA from '../../redux/blog/blog.data';
 import BlogPreview from '../../components/blog-preview/blog-preview.component';
 import './blog.styles.scss'
 
@@ -12,7 +12,7 @@ export default class Blog extends React.Component {
 
     render() {
         const { posts } = this.state;
-        console.log(posts);
+        // console.log(posts);
         return (
             <div className='posts'>
                {posts.map(({...postProps}) => (

@@ -3,6 +3,7 @@ import { Button, Icon } from 'semantic-ui-react'
 import { withRouter } from 'react-router-dom';
 
 import './blog-preview.styles.scss'
+import BlogPost from '../blog-post/blog-post.component';
 
 const BlogPreview = ({id, title, content, image, history, match}) => (
     <div className='preview-container'>
@@ -16,7 +17,6 @@ const BlogPreview = ({id, title, content, image, history, match}) => (
         
         <Button animated className='button'
         onClick={() => {
-            console.log(id);
             history.push(`${match.url}-${id}`)
         }}
         >

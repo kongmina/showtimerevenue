@@ -1,0 +1,25 @@
+.post {
+    text-align: center;
+    margin: 10 auto;
+
+    img {
+        max-width: 30%;
+        max-height: 30%;
+        width: auto;
+        height: auto;
+        }
+
+    .content-container {
+        display: inline-block;
+        margin-top: 25px;
+        width: 65%;
+        text-align: left;
+        .line {
+            margin: 15px;
+          }
+    }
+
+   
+
+
+}

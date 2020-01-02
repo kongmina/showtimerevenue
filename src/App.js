@@ -14,6 +14,9 @@ import Footer from './components/footer/footer.component';
 import Terms from './pages/terms/terms.component';
 import Privacy from './pages/privacy/privacy.component';
 import Blog from './pages/blog/blog.component';
+import BlogOne from './pages/blog/blog-one.component';
+import BlogTwo from './pages/blog/blog-two.component';
+import BlogThree from './pages/blog/blog-three.component';
 
 class App extends React.Component {
   render(){
@@ -27,9 +30,12 @@ class App extends React.Component {
             <Route path='/about' component={About}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/case-study' component={CaseStudy}/>
-            <Route path='/blog' component={Blog}/>
+            <Route path='/blog' component={Blog} exact/>
             <Route path='/terms-of-service' component={Terms}/>
             <Route path='/privacy-policy' component={Privacy}/>
+            <Route path='/blog-1' component={BlogOne} exact/>
+            <Route path='/blog-2' component={BlogTwo} exact/>
+            <Route path='/blog-3' component={BlogThree} exact/>
 
           </Switch>
           <Footer/>
