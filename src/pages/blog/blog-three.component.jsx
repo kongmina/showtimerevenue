@@ -10,7 +10,6 @@ class BlogThree extends React.Component {
     constructor() {
         super();
 
-        // const { history } = this.props;
         this.state = { data: BLOG_DATA[2] }
         
     }
