@@ -26,7 +26,7 @@ class App extends React.Component {
         <BrowserRouter>
         <Header/>
           <Switch>
-            <Route path='/' component={Home} exact/>
+            <Route path='/showtimerevenue' component={Home} exact/>
             <Route path='/about' component={About}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/case-study' component={CaseStudy}/>
