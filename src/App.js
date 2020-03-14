@@ -3,7 +3,7 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom'
 
 // import Header from './components/header/header.component'
 
-import './App.css';
+import { GlobalStyles } from './global.styles'
 
 import Home from './pages/home/home.component';
 import Header from './components/header/header.component';
@@ -22,11 +22,11 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        
+        <GlobalStyles/>
         <BrowserRouter>
         <Header/>
           <Switch>
-            <Route path='/showtimerevenue' component={Home} exact/>
+            <Route path='/' component={Home} exact/>
             <Route path='/about' component={About}/>
             <Route path='/contact' component={Contact}/>
             <Route path='/case-study' component={CaseStudy}/>

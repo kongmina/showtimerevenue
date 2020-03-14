@@ -7,7 +7,12 @@ const WallText = ({title, content}) => (
             {title}
         </div>
         <div className='content'>
-            {content}
+        {content.split("\n").map((i, key) => {
+                        return (
+                            <div className='line' key={key}>{i}</div>
+
+                        )
+                    })}
         </div>
     </div>
     

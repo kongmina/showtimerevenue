@@ -2,11 +2,24 @@
     text-align: center;
     margin: 10 auto;
 
+    .title {
+      font-size: 200%;
+      line-height: 125%;
+      margin: 1%;
+    }
+    
+
     img {
         max-width: 30%;
         max-height: 30%;
         width: auto;
         height: auto;
+        
+
+        @media only screen and (max-width: 800px) {
+            max-width: 60%;
+            margin: 1%;
+          }
         }
 
     .content-container {
@@ -14,6 +27,11 @@
         margin-top: 25px;
         width: 65%;
         text-align: left;
+        
+        @media only screen and (max-width: 800px) {
+            margin: inherit;
+            width: 90%;
+          }
         .line {
             margin: 15px;
           }

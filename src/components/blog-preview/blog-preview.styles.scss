@@ -2,12 +2,25 @@
     text-align: center;
     margin: 10 auto;
 
+    .title {
+        font-size: 175%;
+        margin: 1%;
+        margin-bottom: 2%;
+        line-height: 125%;
+       
+    }
+
         img{
             max-width: 30%;
             max-height: 30%;
             width: auto;
             height: auto;
             display: center;
+            @media only screen and (max-width: 800px) {
+                max-width: 50%;
+                max-height: inherit;
+                margin: inherit;
+              }
           }
 
           .button{

@@ -11,25 +11,27 @@ class BlogThree extends React.Component {
         super();
 
         this.state = { data: BLOG_DATA[2] }
-        
+
     }
 
     render() {
         const { history } = this.props;
         return (
             <div className='blog-post'>
-                <BlogPost {...this.state.data}/>
-                Click the link below 👇
-                <Button animated className='button'
-        onClick={() => {
-            history.push('/case-study');
-        }}
-        >
-            <Button.Content visible> Free Case Study </Button.Content>
-                <Button.Content hidden>
-                <Icon name='arrow right'/>
-            </Button.Content>
-        </Button>
+                <BlogPost {...this.state.data} />
+                <div className='button-container'>
+                    <div className='text'>
+                        Click the link below 👇
+                    </div>
+                    <Button className='button'
+                        onClick={() => {
+                            history.push('/case-study');
+                        }}
+                    >
+                        <Button.Content visible> Free Case Study </Button.Content>
+                       
+                    </Button>
+                </div>
             </div>
         )
     }
