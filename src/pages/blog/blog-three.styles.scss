@@ -1,13 +1,12 @@
 .blog-post {
-    text-align: center;
-    margin-top: 20px;
 
-    // button {
-        // display: list-item;
-        // align-content: center;
-    // }
+    .button-container {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 5%;
 
-    
-
-    
+        .text {
+            margin: 2%;
+        }
+    }
 }

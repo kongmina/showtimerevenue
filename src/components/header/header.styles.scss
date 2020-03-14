@@ -3,10 +3,10 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 2%;
     background-color: #2f2f2f;
     font-family: "Open Sans Condensed";
-    font-size: 24px;
+    font-size: 125%;
     color: white;
     header:link {
       color: white;
@@ -16,9 +16,12 @@
     
     .logo-container {
         height: 100%;
-        width: 200px;
+        width: 40%;
         // padding: 10px;
-        padding-left: 20px;
+        padding-left: 2%;
+        @media only screen and (max-width: 800px) {
+          width: 50%          
+        }
       }
 
       .options {
