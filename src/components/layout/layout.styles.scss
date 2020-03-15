@@ -25,7 +25,6 @@
         max-height: 450px;
         width: auto;
         max-width: 450px;
-        // display: block;
         @media only screen and (max-width: 800px) {
           margin: inherit;
           width: 100%;
@@ -35,12 +34,11 @@
 
     .text {
       margin: 1%;
-      display: inline-block;
+      text-align: left;
       .title {
         font-size: 200%;
         margin-top: 20px;
-        // margin-bottom: 20px;
-        text-align: left;
+        
       }
 
       .description {
@@ -50,7 +48,15 @@
         .line {
           margin-bottom: 20px;
         }
+       
+      }
+      .button {
+        text-align: center;
+        margin: 10%;
+
       }
     }
+    
+    
   }
 }

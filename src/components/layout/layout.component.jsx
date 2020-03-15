@@ -22,15 +22,16 @@ const Layout = ({ title, imageUrl, description, buttonUrl }) => (
 
                         )
                     })}
-                    
+
                 </div>
-                {/* <div>
-                buttonUrl ? {
-                        <Button>
-                            Free Case Study
-                         </Button>
-                    } : null
-                    </div> */}
+                <div className='button'>
+                    {buttonUrl != null &&
+                        <Button 
+                            color='teal'
+                            size='huge'
+                        > FREE Case Study </Button>
+                    }
+                </div>
             </div>
         </div>
     </div>
